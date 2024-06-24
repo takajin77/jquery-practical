@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>自己紹介サイト</title>
+    <meta charset="utf-8">
+    <meta name="description" content="自己紹介と自分の趣味を掲載するサイト">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <!-- slick読み込み -->
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- JavaScript読み込み -->
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-box">
+         <a href="index.html"><span class="translucent">My Profile</span></a>
+        <div>
+          <div id="link">
+            <a id="link-about" class="translucent" href="#about">About</a>
+            <a id="link-works" class="translucent" href="#works">Works</a>
+          </div>
+        </div>
+      </div>
+    </header>
+      <main>
+      <article>
+        <section id="main-visual">
+          <div class="carousel">
+            <div>
+              <img src="images/main.png" alt="カメラ写真" class="mainImg">
+            </div>
+            <div>
+              <img src="images/main2.png" alt="カメラ道具" class="mainImg">
+            </div>
+            <div>
+              <img src="images/main3.png" alt="カメラと空" class="mainImg">
+            </div>
+          </div>
+        </section>
+
+        <section id="about">
+          <h1 class="index-h1">About</h1>
+          <div id="about-contents">
+            <img src="images/about.png" alt="自己写真">
+            <div>
+              <h2>Kazuki Asahina</h2>
+              <div id="about-text">
+                <li>25歳 宮城県出身</li>
+                <li>ソフトウェア業界マーケティング部</li>
+                <li>趣味はカメラ、愛機はCanon</li>
+                <li>自然を撮影するのが好きで、海や山によく行く</li>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="works">
+          <h1 class="index-h1">Works</h1>
+          <div id="works-box">
+            <div class="works-contents">
+              <img src="images/works1.png" alt="新潟" class="worksImg translucent">
+              <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>
+            </div>
+            <div class="works-contents">
+              <img src="images/works2.png" alt="長野" class="worksImg translucent">
+              <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+            </div>
+            <div class="works-contents">
+              <img src="images/works3.png" alt="京都" class="worksImg translucent">
+              <p>京都で撮影した、明け方の古き良き日本の街並み</p>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!-- ページトップボタン -->
+       <div class="to-top-page">
+        <a href="#header" class="topBtn">TOP</a>
+       </div>
+    </main>
+    <footer>
+      <p>&copy;MyProfile, All rights reserved.</p>
+    </footer>
+
+     <!-- モーダル -->
+    <!-- モーダル本体 -->
+    <div class="modal">
+      <!-- 閉じるボタン -->
+      <p class="close-btn"><a href="">X</a></p>
+      <!-- モーダル内のコンテンツ -->
+      <img src="" alt="" class="big-img">
+    </div>
+
+    <!-- jqueryコード -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- slickの読み込み -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="JS/script.js"></script>
+
+   
+  </body>
+  
+</html>
